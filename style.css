@@ -1,0 +1,107 @@
+ *{
+     margin: 0;
+     padding:0;
+ }
+ 
+ body{
+    fnt-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+
+.wrapper{
+    margin:0 auto;
+    background-color:#E4F9F4;
+    max-width:1000px;
+    height: auto;
+   
+}
+
+.profile-image{
+    
+    padding:15px;
+    float: left;
+}
+.profile-image img{
+    width:100px;
+    height: 120px;
+    border:4px solid white;
+    border-radius:50%;
+}
+.bio{
+    margin-top:30px;
+    padding:15px;
+    float: left;
+}
+h1, h2, h3, h4, h5, h6{
+    color:#37B2B1;
+}
+.bio-contact{
+    float: right;
+    color:#37B2B1;
+    padding:35px;
+}
+.bio-contact p a{
+    text-decoration: none;
+    color:#37B2B1;
+}
+.bio-contact p a:hover{
+    text-decoration: underline;
+}
+.div-clear{
+    clear: both;
+}
+
+.main-hr{
+    width:98%;
+    margin:20px auto;
+    border:2px solid black;
+}
+
+.middle-hr{
+    margin:20px auto;
+    width:100%;
+}
+
+.half-width{
+    box-sizing:border-box;
+    width:30%;
+    padding:10px;
+    float: left;
+   
+}
+
+.highest-width{
+    width:70%;
+    float: left;
+    
+}
+.highest-width ul{
+    list-style-position: inside;
+}
+.hsc{
+    width: 55%;
+    float: left;
+}
+.ssc{
+    width: 35%;
+    float: left;
+}
+
+
+.footer{
+    
+   padding:10px;
+    background-color:black ;
+    text-align: center;
+}
+
+.footer a{
+   
+    color:whitesmoke;
+    text-decoration: none;
+     margin:10px;
+    
+}
+.footer p{
+    color:white;
+     margin-top: 10px;
+}
